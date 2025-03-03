@@ -23,11 +23,13 @@
 
 ---
 
-### **Explain what happens when a malicious actor sends a large number of SYN packets all at once:**  
-The malicious actor sends a large amount of SYN packets simultaneously, and the server is **overwhelmed by the excessive volume of requests/incoming traffic** and loses its ability to respond/function.  
-(**There are no available server resources left for any legitimate TCP connection requests.**)
+### **Explain what happens when a malicious actor sends a large number of SYN packets all at once:**
+
+The malicious actor sends a large amount of SYN packets simultaneously, and the server is overwhelmed by the excessive volume of requests/incoming traffic and loses its ability to respond/function.  
+(There are no available server resources left for any legitimate TCP connection requests.)
 
 ---
 
-### **Explain what the logs indicate and how that affects the server:**  
-There are **suspicious amounts of TCP SYN requests** all coming from an **unfamiliar IP address**, which is preventing the server from responding to legitimate server requests, causing a **connection timeout error** for clients.
+### **Explain what the logs indicate and how that affects the server:** 
+
+There are suspicious amounts of *TCP SYN* requests all coming from an unfamiliar IP address, which is preventing the server from responding to legitimate server requests, causing a connection timeout error for clients.

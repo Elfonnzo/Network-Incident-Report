@@ -1,4 +1,4 @@
-# **Cybersecurity Incident Report - Network Attack**
+# Cybersecurity Network Attack Incident Report
 
 ## **Section 1: Identify the type of attack that may have caused this network interruption**
 

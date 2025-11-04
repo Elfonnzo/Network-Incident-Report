@@ -33,3 +33,19 @@ The malicious actor sends a large amount of SYN packets simultaneously, and the 
 ### **Explain what the logs indicate and how that affects the server:** 
 
 There are suspicious amounts of *TCP SYN* requests all coming from an unfamiliar IP address, which is preventing the server from responding to legitimate server requests, causing a connection timeout error for clients.
+
+## **Section 3: Explain how to prevent future SYN Flood (DoS) attacks**
+
+To reduce the risk of future SYN flood or denial-of-service attacks, five key preventive measures can be enforced:
+
+1. Strengthen network protection: Configure firewalls, intrusion prevention systems, and rate-limiting tools to detect and block excessive SYN requests.
+
+2. Conduct regular system maintenance: Keep all network devices and servers updated with current security patches and monitor logs for unusual activity.
+
+3. Implement access control measures: Use authentication and network segmentation to limit who can reach critical systems.
+
+4. Establish incident response procedures: Maintain a plan that outlines how to isolate affected systems and analyse log data during an attack.
+
+5. Promote user awareness: Train staff to recognise and report signs of network disruption or suspicious activity.
+
+These combined actions help strengthen network resilience and ensure faster recovery in the event of similar attacks.

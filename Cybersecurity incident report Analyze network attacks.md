@@ -36,7 +36,7 @@ There are suspicious amounts of *TCP SYN* requests all coming from an unfamiliar
 
 ## **Section 3: Explain how to prevent future SYN Flood (DoS) attacks**
 
-To reduce the risk of future SYN flood or denial-of-service attacks, five key preventive measures can be enforced:
+### **To reduce the risk of future SYN flood or denial-of-service attacks, five key preventive measures can be enforced:**
 
 1. Strengthen network protection: Configure firewalls, intrusion prevention systems, and rate-limiting tools to detect and block excessive SYN requests.
 
